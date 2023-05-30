@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONTS */
+
+@font-face {
+    font-family: BankGothic;
+    src: url(./assets/BankGothic.ttf);
+}
+
+@font-face {
+    font-family: Pricedown;
+    src: url(./assets/Pricedown.ttf);
+}
+
+* {
+    font-family: BankGothic;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    color: white;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.pricedown {
+    font-family: Pricedown;
+}
