@@ -9,7 +9,7 @@ function Menu() {
 
         <Link href='/' className=''>
           <li>
-            <a className='text-5xl text-blue-200 hover:text-blue-300 cursor-pointer'>INICIO</a>
+            <a className='text-5xl text-blue-200 hover:text-blue-300 cursor-pointer'>asdasd</a>
           </li>
         </Link>
 
