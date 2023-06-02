@@ -8,7 +8,7 @@ import banner3 from './../assets/Banner3.jpeg'
 
 function Home() {
   return (
-    <div className='flex flex-col items-center justify-center py-10 gap-10 lg:w-3/4 m-auto'>
+    <div className='flex flex-col items-center justify-center py-10 gap-10 lg:w-2/3'>
 
       <Banner banner1={banner1} title='LA MEJOR COMUNIDAD' />
       <Banner banner1={banner2} title='AUTOS EXCLUSIVOS' />

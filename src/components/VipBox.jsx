@@ -12,11 +12,11 @@ function VipBox({ title, benefits, bg }) {
     }
 
     return (
-        <div className='flex flex-col items-center justify-center'>
+        <div className='flex flex-col items-center justify-center cursor-pointer px-10'>
             <div className=
                 {
                     section === false
-                        ? `flex items-center justify-center ${bg} w-1/3 transition-all duration-150`
+                        ? `flex items-center justify-center ${bg} w-1/2 transition-all duration-150`
                         : `flex items-center justify-center ${bg} w-full transition-all duration-150`
 
                 }
@@ -28,7 +28,7 @@ function VipBox({ title, benefits, bg }) {
                 </h1>
             </div>
 
-            <div className="">
+            <div className="flex flex-col lg:flex-row gap-6">
                 {
                     section === false
                         ? <></>

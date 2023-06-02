@@ -14,7 +14,7 @@ import MenuMobile from './components/MenuMobile';
 function App() {
 
   return (
-    <div className='flex flex-wrap'>
+    <div className='flex flex-wrap lg:px-10 justify-center'>
       <Logo />
       <Menu />
       <MenuMobile />

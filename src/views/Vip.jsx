@@ -8,7 +8,7 @@ import VipBox from '../components/VipBox'
 function Vip() {
 
     return (
-        <div className='flex flex-col py-10 px-5 gap-12'>
+        <div className='flex flex-col py-10 gap-12 lg:w-2/3 select-none'>
 
             {
                 DB_Vip.map(el => {
